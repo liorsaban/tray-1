@@ -1,0 +1,19 @@
+---
+title: "markdown1"
+author: "lior"
+date: "27 במרץ 2019"
+output: html_document
+---
+
+```{r, include=TRUE}
+matrix(1:32,nrow = 8)
+
+```
+```{r,echo=FALSE}
+x=1
+y=1
+z=x+y
+if(z>=3) print("cool") else print("noooo!!!")
+
+```
+
